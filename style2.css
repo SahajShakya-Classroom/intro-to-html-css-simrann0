@@ -1,0 +1,163 @@
+:root{
+    --text-color: black;
+    --link-color: rgb(51, 51, 103);
+    background-color: aliceblue;
+}
+*{
+    margin:2%;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a{
+    color:var(--link-color);
+    text-decoration:none;
+}
+
+.navbar {
+    background-color:rgb(101, 144, 223);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0;
+    padding: 0 20px;
+ 
+   
+}
+
+nav .row a{
+    margin:0 20px;
+    font-size:x-large;
+  
+}
+.row a:hover{
+   color: black;
+}
+.Parent{
+    display:flex;
+}
+.child2{
+    display: flex;
+    flex-direction: column;
+}
+.child1{
+    width:500px;
+    height:500px;
+    border-radius: 50%;
+   
+}
+p {
+    margin-bottom: 20px;  
+}
+
+.btm{
+    color:white;
+    border:none;
+    width:15%;
+    background-color:darkgray;
+    height:40px;
+    font-size:16px; 
+    border-radius:6px;
+    cursor:pointer; 
+
+}
+.btm:hover{
+    color:white;
+    background-color:rgb(0, 0, 0); 
+}
+th,td{
+    border: 2px solid black;
+    padding:8px;
+    margin:20px;
+
+}
+table{
+    border-collapse: collapse;
+    width:75%;
+    text-align: center;
+    background-color: white;
+
+}
+th{
+   background-color:beige;
+}
+#project{
+    table, td {
+    border: 2px solid black;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    background-color:white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#lab{
+    background-color: rgb(126, 125, 215);
+}
+}
+footer{
+  
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(101, 144, 223);
+}
+#submitBtn{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: darkgray;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+#submitBtn:hover{
+    background-color: rgb(101, 144, 223);
+    color: white;
+}
+#contact{
+     display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding:20px 20px;
+}
+#contact h1{
+    margin-bottom:20px;
+    font-size:28px;
+}
+.myform{
+    padding:25px;
+    width:100%;
+    max-width: 400px;
+    border-radius: 8px ;
+    box-shadow: 0px 4px 10px gray;
+}
+.input{
+    margin-bottom: 15px;
+}
+.input label{
+    display: block;
+    margin-bottom: 5px; 
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.input input, 
+.input textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.input input:focus,
+.input textarea:focus {
+    border-color: lightblue;
+    box-shadow: 0 0 5px lightblue;
+}
